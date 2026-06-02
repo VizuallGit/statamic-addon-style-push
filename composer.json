@@ -1,6 +1,5 @@
 {
     "name": "statamic-addon/style-push",
-    "version": "1.0.0",
     "description": "Vizuall Style Push — push per-partial CSS and JS to <head> and </body>",
     "type": "statamic-addon",
     "license": "proprietary",
