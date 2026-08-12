@@ -11,6 +11,10 @@ class AddonServiceProvider extends BaseAddonServiceProvider
         Tags\StylePush::class,
         Tags\ScriptPush::class,
         Tags\YieldStyles::class,
+        // Det gamle navn for YieldStyles. Skal blive stående: et manglende tag
+        // fejler ikke i Antlers, det render bare tomt — og så er al pushet CSS
+        // væk fra siden uden en fejlmeddelelse nogen steder.
+        Tags\YieldMinified::class,
         Tags\YieldScripts::class,
     ];
 
